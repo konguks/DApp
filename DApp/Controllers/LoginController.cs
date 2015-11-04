@@ -24,9 +24,7 @@ namespace DApp.Controllers
         //[Route("Getdet")]
         public JObject Getdet(string cid, string pwd)
         {
-            //LoginDisApp ld = new LoginDisApp();
-
-            //var ldap = new List<LoginDisApp>();
+           
             if (cid == null)
                 cid = "";
             if (pwd == null)

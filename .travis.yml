@@ -5,7 +5,7 @@ deploy:
   site: loginsvc
 
 language: csharp
-solution: CustDisApp.sln
+solution: DApp.sln
 script:
   - xbuild /p:Configuration=Release /p:TargetFrameworkVersion="v4.0" DApp.sln
   - mono ./testrunner/NUnit.Runners.2.6.4/tools/nunit-console.exe ./DApp.Tests/bin/Release/DApp.Tests.dll
